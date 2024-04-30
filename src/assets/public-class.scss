@@ -1,0 +1,83 @@
+@import 'public';
+@font-face {
+  font-family: 'PingFangSC-Semibold';
+  src: url('~@/assets/font/PingFangSC-Semibold.ttf'); //你的资源目录
+  font-weight:normal;
+  font-style:normal;
+
+}
+@font-face {
+  font-family: 'PingFangSC-Regular';
+  src: url('~@/assets/font/PingFangSC-Regular.ttf'); //你的资源目录
+  font-weight:normal;
+  font-style:normal;
+
+}
+
+/*滚动条样式开始*/
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  box-shadow:inset 0 0 6px rgba(0, 0, 0, 0);
+  -webkit-box-shadow:inset 0 0 6px rgba(0, 0, 0, 0);
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  box-shadow:inset 1px 1px 0 rgba(0, 0, 0, .1);
+  -webkit-box-shadow:inset 1px 1px 0 rgba(0, 0, 0, .1);
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow:inset 1px 1px 0 rgba(0, 0, 0, .1);
+  -webkit-box-shadow:inset 1px 1px 0 rgba(0, 0, 0, .1);
+
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  border: 5px solid transparent;
+
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .2) inset;
+
+}
+
+::-webkit-scrollbar-thumb {
+  min-height: 20px;
+  background-clip:content-box;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, .2) inset;
+
+}
+
+::-webkit-scrollbar-corner {
+  background:transparent;
+
+}
+/*滚动条样式结束*/
+
+/*菜单按钮tips*/
+.menuTip{
+  background-color:rgba(0,0,0,0.4)!important;
+  margin-left: 22px!important;
+  font-family:sans-serif;
+}
+.menuTip .popper__arrow,{
+  border-right-color:rgba(0,0,0,0.4)!important;
+}
+.menuTip .popper__arrow:after{
+  border-right-color:transparent!important;
+}

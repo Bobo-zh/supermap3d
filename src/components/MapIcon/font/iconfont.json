@@ -1,0 +1,72 @@
+{
+  "id": "2736537",
+  "name": "feiwei-map",
+  "font_family": "iconfont",
+  "css_prefix_text": "fwMap-",
+  "description": "飞未二三位一体化项目",
+  "glyphs": [
+    {
+      "icon_id": "23532130",
+      "name": "收起备份@3x",
+      "font_class": "expand",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "23532131",
+      "name": "收起@3x",
+      "font_class": "collaspe",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "23491925",
+      "name": "print",
+      "font_class": "print",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "23491926",
+      "name": "measure",
+      "font_class": "measure",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "23491927",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "23491928",
+      "name": "layer",
+      "font_class": "layer",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "23491932",
+      "name": "swipe",
+      "font_class": "swiper",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "23491933",
+      "name": "路径@3x",
+      "font_class": "back",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "23491936",
+      "name": "draw",
+      "font_class": "draw",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}

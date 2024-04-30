@@ -1,2 +1,19 @@
-# supermap3d
-利用超图三维框架做的 gis 演示系统
+# feiwei-map
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
